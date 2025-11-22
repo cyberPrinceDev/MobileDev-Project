@@ -1,5 +1,3 @@
-// app/(tabs)/login.tsx   ← This is your exact file path
-
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import React, { useState } from 'react';
