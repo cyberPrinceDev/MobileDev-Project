@@ -19,11 +19,11 @@ export default function LoginScreen() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
 
-  const navigation = useNavigation<any>(); // This works perfectly in Expo Router + Tabs
+  const navigation = useNavigation<any>(); 
 
   const handleLogin = () => {
     if (email.trim() && password.trim()) {
-      navigation.navigate('home'); // Goes to app/(tabs)/home.tsx
+      navigation.navigate('home'); 
     } else {
       Alert.alert('Error', 'Please fill in both email and password');
     }
